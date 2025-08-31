@@ -106,7 +106,7 @@ void enableResistor(int pinToEnable) {
   }
 }
 
-// Switch to the next pin, decrement
+// Switch to the next pin, increment
 void switchToNextPin() {
   currentEnabledResistor++;
   currentEnabledResistor %= 8;
